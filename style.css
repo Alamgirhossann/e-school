@@ -1,0 +1,363 @@
+.top-page{
+    
+    width: 1440px;
+    height: 576px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F0FFF0;
+}
+.logo{
+    position: absolute;
+    width: 198.07px;
+    height: 59px;
+    left: 150px;
+    top: 30px;
+}
+.navSetting{
+    display: flex;
+}
+.book{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    position: absolute;
+    width: 57px;
+    height: 34px;
+    left: 750px;
+    top: 35px;
+    text-decoration: none;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    position: absolute;
+    width: 76px;
+    height: 34px;
+    left: 850px;
+    top: 35px;
+    text-decoration: none;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    position: absolute;
+    width: 64px;
+    height: 34px;
+    left: 950px;
+    top: 35px;
+    text-decoration: none;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    position: absolute;
+    width: 45px;
+    height: 34px;
+    left: 1050px;
+    top: 35px;
+    text-decoration: none;
+}
+.sign-in{
+    
+    position: static;
+    width: 48px;
+    height: 19px;
+    left: 28px;
+    top: 12px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;   
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin:  15px;
+}
+.frame{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 12px 28px;
+    
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    left: 1110px;
+    top: 20px;
+    
+    background: #21B573;
+    border-radius: 33px;
+}
+.text-set{
+    position: absolute;
+    width: 405px;
+    height: 140px;
+    left: 160px;
+    top: 170px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+}
+.image-set{
+    position: absolute;
+    width: 554px;
+    height: 346px;
+    left: 650px;
+    top: 157px;
+}
+.start{
+    position: static;
+    width: 130px;
+    height: 35px;
+    background-color: #21B573;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    outline: none;
+    cursor: pointer;
+}
+.book-icon{
+    position: absolute;
+    width: 66px;
+    height: 85px;
+    left: 190px;
+    top: 672px;
+}
+.student-icon{
+    position: absolute;
+    width: 80px;
+    height: 83px;
+    left: 520px;
+    top: 670px;
+}
+.text-icon{
+    position: absolute;
+    width: 75px;
+    height: 80px;
+    left: 820px;
+    top: 670px;
+}
+.students-icon{
+    position: absolute;
+    width: 68px;
+    height: 76px;
+    left: 1120px;
+    top: 670px;
+}
+.book-text{
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    width: 138px;
+    height: 36px;
+    left: 150px;
+    top: 779px;
+}
+.student-text{
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    width: 179px;
+    height: 36px;
+    left: 470px;
+    top: 779px;
+}
+.text-text{
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    width: 176px;
+    height: 36px;
+    left: 770px;
+    top: 779px;
+}
+.students-text{
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    width: 173px;
+    height: 36px;
+    left: 1070px;
+    top: 779px;
+}
+.heading{
+    position: absolute;
+    width: 280px;
+    height: 54px;
+    left: 551px;
+    top: 986px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+.card-img{
+    width: 320px;
+    height: 234px
+}
+
+.card-frame1{
+        position: absolute;
+    width: 370px;
+    height: 483px;
+    left: 120px;
+    top: 1102px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.card-frame2{
+    position: absolute;
+    width: 370px;
+    height: 483px;
+    left: 520px;
+    top: 1102px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.card-frame3{
+    position: absolute;
+    width: 370px;
+    height: 483px;
+    left: 920px;
+    top: 1102px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.buy-btn{
+    color: white;
+    background-color: #21B573;
+    padding: 8px 18px;
+    border-radius: 33px;
+    border: none;
+    font-size: 10px;
+}
+.date img{
+    height: 24px;
+    margin-top: 10px;
+}
+.man-img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 310px;
+    top: 1755px;
+}
+.testimonial{
+    position: absolute;
+    width: 219px;
+    height: 54px;
+    left: 520px;
+    top: 1600px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+.testimonial-text{
+    position: absolute;
+    width: 580px;
+    height: 90px;
+    left: 480px;
+    top: 1750px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+
+}
+
+.course{
+    position: absolute;
+    width: 123px;
+    height: 181px;
+    left: 633px;
+    top: 0px;
+
+    font-family: Poppins;
+    line-height: 10px;
+    
+}
+.terms{
+    position: absolute;
+    width: 123px;
+    height: 180px;
+    left: 897px;
+    top: 0px;
+
+    font-family: Poppins;
+    line-height: 10px;
+
+
+
+}
+.links{
+    position: absolute;
+    width: 123px;
+    height: 180px;
+    left: 1181px;
+    top: 0px;
+    font-family: Poppins;
+    line-height: 10px;
+}
+.footer-text{
+    position: absolute;
+    width: 364px;
+    height: 60px;
+    left: 143px;
+    top: 0px;
+    font-size: 20px;
+    font-family: Poppins;
+    line-height: 30px;
+}
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 369px;
+    left: 0px;
+    top: 2013px;
+    color: white;
+    background: #282531;
+}
+.copy-right{
+    position: absolute;
+    width: 337px;
+    height: 30px;
+    left: 536px;
+    top: 300px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
